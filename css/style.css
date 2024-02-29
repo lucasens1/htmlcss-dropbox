@@ -9,6 +9,18 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+.pd-top-50{
+    padding-top: 50px;
+}
+
+.pd-top-120{
+    padding-top: 120px;
+}
+
+.pd-btm-20{
+    padding-bottom: 20px;
+}
+
 img{
     max-width: 100%;
     object-fit: cover;
@@ -51,7 +63,6 @@ img{
 /*BIG CONTAINER*/
 .hero{
     width: 100%;
-    padding: 120px 0 0 0;
     background-color: black;
 }
 .container-large{
@@ -65,16 +76,14 @@ img{
 .common-cont{
     width: 60%;
     margin: 0 auto;
-    padding-top: 50px;
-
-    
 }
 
 .top-lay{
     width: 100%;
 
     height: 100px;
-    background-color: beige;
+    
+    border: 1px solid black;
 }
 /*COLONNE 3*/
 .container-col{
@@ -88,14 +97,14 @@ img{
     width: calc(100% / 3);
     border: 1px solid black;
     height: 600px;
-    background-color: lightslategray;
 }
 
 .base-lay{
     width: 100%;
 
     height: 100px;
-    background-color: beige;
+    
+    border: 1px solid black;
 }
 
 /*COLONNA BIG AND SMALL*/
@@ -105,7 +114,7 @@ img{
     margin-top: 20px;
 
     height: 400px;
-    background-color: darkkhaki;
+    
 }
 
 .big-col{
@@ -135,7 +144,7 @@ img{
 .card{
     height: 100%;
     width: 100%;
-    background-color: darkgray;
+    
     padding: 20px;
     border: 1px solid black;
 }
@@ -145,6 +154,7 @@ img{
     flex-grow: 0.5;
     height: 80px;
     background: blue;
+    border: 1px solid black;
 }
 
 /*LOGO SECTION*/
@@ -153,4 +163,59 @@ img{
     height: 330px;
     width: 100%;
     background: aquamarine;
+}
+
+.logos{
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+}
+
+.part-logo{
+    width: calc(100%  / 3) ;
+    height: 100%;
+    border: 1px solid black;
+}
+
+.col-logo{
+    width:calc(100% / 2);
+    height: 100%;
+}
+
+.inner-logo{
+    width: 100%;
+    height: calc(100% / 2);
+    border: 1px solid black;
+}
+
+/*Dropbox Business*/
+
+
+.drop-bus-title{
+    color: #61082b ;
+}
+
+
+
+.mini-wrap{
+    width: 100%;
+    
+    background-color: red;
+}
+
+.lrgandsmall.light{
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.faq{
+    height: 250px;
+    padding-bottom: 20px;
+}
+
+.faq-cont{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    
 }
