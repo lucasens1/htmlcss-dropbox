@@ -13,7 +13,7 @@ img{
     max-width: 100%;
     object-fit: cover;
 }
-/*PADDING */
+/*PADDING*/
 .pd-top-50{
     padding-top: 50px;
 }
@@ -25,31 +25,20 @@ img{
 .pd-btm-20{
     padding-bottom: 20px;
 }
-
-/* POSITION */
-.abs{
-    position: absolute;
+/*DIPSLAY*/
+.flex{
+    display: flex;
 }
-
-.rel{
-    position: relative;
-}
-
+/*POSITION*/
 .fixed{
     position: fixed;
     top: 0;
     left: 0;
 }
-/*DISPLAY */
-.flex{
-    display: flex;
-}
-
-/*FLEX PROPERTIES */
+/*FLEX PROPERTIES*/
 .wrap{
     flex-wrap: wrap;
 }
-
 /*HEADER*/
 .head{
     width: 100%;
@@ -125,19 +114,21 @@ img{
     margin-top: 20px;
 
     height: 400px;
+    border: 3px solid violet;
 }
 
 .big-col{
     width: 65%;
     height: 100%;
+    border: 1px solid green;
     
-    background-color: cornflowerblue;
 }
 
 .small-col{
     width: 35%;
     height: 100%;
-    background-color: lightseagreen;
+    border: 1px solid rgb(255, 0, 162);
+    
 }
 /*SECONDA PARTE MAIN SECT*/
 .inter-title{
@@ -163,7 +154,8 @@ img{
     width: calc(100% / 3);
     flex-grow: 0.5;
     height: 80px;
-    background: blue;
+
+    
     border: 1px solid black;
 }
 
@@ -188,56 +180,15 @@ img{
 }
 
 .col-logo{
-    width: calc(100% / 2);
+    width:calc(100% / 2);
     height: 100%;
-}
-
-.col-logo.sq{
-    width: 50%;
-    height: 50%;
-    border: 1px solid green;
-    position: absolute;
 }
 
 .inner-logo{
-    width: calc(100% / 2);
+    width: 100%;
     height: calc(100% / 2);
     border: 1px solid black;
 }
-
-.square{
-    width: 100%;
-    height: 100%;
-}
-
-.square:after{
-    content: "" ;
-    display: block;
-    padding-bottom: 100%;
-}
-
-/*CLASSI PER POSIZIONARE QUADRATI*/
-.tl{
-    top: 0;
-    left: 0;
-}
-
-.tr{
-    top: 0;
-    right: 0;
-}
-
-.bl{
-    bottom: 0;
-    left: 0;
-}
-
-.br{
-    bottom: 0;
-    right: 0;
-}
-
-
 
 /*Dropbox Business*/
 .drop-bus-title{
