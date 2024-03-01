@@ -203,6 +203,7 @@ a{
 .container-col{   
     margin: 10px 0;
     gap: 5px;
+    
 }
 .texta{
     border: 1px solid lightgray;
@@ -212,6 +213,7 @@ a{
 }
 .col{
     width: calc(100% / 3);  
+    border: 1px solid lightgray;
 }
 
 .dir-col{
