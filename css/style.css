@@ -30,9 +30,41 @@ a{
 .grey{
     color: lightslategray;
 }
-
+/*Colori dei loghi*/
+.lightgreen{
+    background-color: lightgreen;
+}
+.wblue{
+    background-color:#0093ce;
+}
+.porpora{
+    background-color: #61082b;
+}
+.wred{
+    background-color: #ff1c1c;
+}
+.wdarkred{
+    background-color: #d5001f;
+}
+.wmattcyan{
+    background-color: #b4d0e7;
+}
+.wdarkblue{
+    background-color: #0d2481;
+}
+.darkyellow{
+    background-color: #ffd830;
+}
+.wgrey{
+    background-color: #f5f5f5;
+}
+/*/COLORI LOGHI*/
 .check{
     color: #0061ff;
+}
+/*Filtro invert per immagine nei loghi */
+.invert{
+    filter: invert(1);
 }
 /*PADDING*/
 .pd-top-50{
@@ -351,7 +383,6 @@ a{
 .logo-section{
     margin-top: 20px;
     width: 100%;
-    background: aquamarine;
 }
 
 .logos{
@@ -362,22 +393,37 @@ a{
 
 .part-logo{
     width: calc(100%  / 3) ;
-    height: 100%;
-    border: 1px solid black;
+    height: 100%;   
+}
+/*Creo la colonna grande mettendo padding del doppio così rimane fisso quadrato*/
+
+.col-logo-big{
+    width: 100%;
+    padding-bottom: 100%;
+    position: relative;
 }
 
 .col-logo{
     width:calc(100% / 2);
     padding-bottom: 50%;
     position: relative;
-
-    border: 1px solid black;
 }
 
 .inner-logo{
     width: 100%;
     height: 100%;
     position: absolute;
+}
+
+.inner-logo-big{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.inner-logo.flex{
+    align-items: center;
+    padding: 50px;
 }
 
 /*Dropbox Business*/
