@@ -26,6 +26,7 @@ a{
     text-decoration: none;
     color: inherit;
 }
+
 /*PADDING*/
 .pd-top-50{
     padding-top: 50px;
@@ -50,6 +51,7 @@ a{
 .pd-15-xy{
     padding: 15px;
 }
+
 /*DISPLAY*/
 .flex{
     display: flex;
@@ -169,8 +171,7 @@ a{
 
 .top-lay{
     width: 100%;
-    height: 100px;
-    
+    height: 100px;  
     border: 1px solid black;
 }
 .form{
@@ -178,17 +179,24 @@ a{
     gap: 10px;
 }
 /*COLONNE 3*/
-.container-col{
-    
-    border: 1px solid red;
+.container-col{   
     margin: 10px 0;
     gap: 5px;
 }
-
+.texta{
+    border: 1px solid lightgray;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
 .col{
     width: calc(100% / 3);
-    border: 1px solid black;
+    
     height: 600px;
+}
+
+.dir-col{
+    flex-direction: column;
 }
 
 .base-lay{
@@ -197,6 +205,45 @@ a{
     height: 100px;
     
     border: 1px solid black;
+}
+
+.card > ul{
+    font-size: 0.75rem;
+}
+
+.stailist > li{
+    padding-bottom: 25px;
+}
+
+
+.stailist > li > h3{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.ndstailist > li{
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.user::before{
+    font-family: "Font Awesome Kit";
+    content: "\f007";
+}
+
+.choice{
+    background-color: #0061ff;
+    color: white;
+    font-size: 0.7rem;
+}
+.grey{
+    color: lightslategray;
+}
+.styleblue{
+    text-decoration: underline;
+    color: blue;
+}
+.bold{
+    font-weight: 700;
 }
 
 /*COLONNA BIG AND SMALL*/
@@ -239,7 +286,7 @@ a{
     width: 100%;
     
     padding: 20px;
-    border: 1px solid black;
+    border: 1px solid lightgray;
 }
 
 .base-col{
