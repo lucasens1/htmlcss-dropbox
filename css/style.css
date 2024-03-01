@@ -105,6 +105,8 @@ a{
     gap: 8px;
 }
 
+
+
 /*HEADER*/
 .head{
     width: 100%;
@@ -209,9 +211,7 @@ a{
     width: 100%;
 }
 .col{
-    width: calc(100% / 3);
-    
-    
+    width: calc(100% / 3);  
 }
 
 .dir-col{
@@ -287,9 +287,9 @@ a{
 /*COLONNA BIG AND SMALL*/
 .lrgandsmall{
     width: 100%;
-    margin-top: 20px;
+    margin-top: 100px;
 
-    height: 400px;
+    
     border: 3px solid violet;
 }
 
@@ -304,16 +304,30 @@ a{
     width: 35%;
     height: 100%;
     border: 1px solid rgb(255, 0, 162);
-    
 }
+
+.link-small{
+    border: 1px solid black;
+    font-size: 0.8rem;
+}
+
+.link-small.texta{
+    width: 60%;
+}
+
 /*SECONDA PARTE MAIN SECT*/
 .inter-title{
-    padding-top: 30px;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+/*CLASSE PER GRANDEZZA DEL PARAGRAFO IN sezioni LefttoRight and Colonne * 6 */
+.medium-p{
+    font-size: 0.7rem;
+    line-height: 1rem;
 }
 
 /* USO IL CONTAINER UGUALE A SOPRA MA COLONNE DIFFERENTI */
 .col-sm{
-    height: 300px;
     margin: 0 auto;
     width: calc(100% / 3 - 5px);
 }
@@ -322,8 +336,8 @@ a{
     height: 100%;
     width: 100%;
     
-    padding: 20px;
-    border: 1px solid lightgray;
+    padding: 10px;
+    
 }
 
 .base-col{
