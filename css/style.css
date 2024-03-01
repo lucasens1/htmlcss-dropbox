@@ -334,19 +334,15 @@ a{
 
 .card{
     height: 100%;
-    width: 100%;
-    
-    padding: 10px;
-    
+    width: 100%;   
+    padding: 10px;   
 }
 
 .base-col{
     width: calc(100% / 3);
     flex-grow: 0.5;
-    height: 80px;
-
-    
-    border: 1px solid black;
+    padding-top: 100px;
+    padding-bottom: 50px;
 }
 
 /*LOGO SECTION*/
