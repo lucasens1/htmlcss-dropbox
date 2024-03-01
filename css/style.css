@@ -51,7 +51,9 @@ a{
 .pd-15-xy{
     padding: 15px;
 }
-
+.pd-top-30{
+    padding-top: 30px;
+}
 /*DISPLAY*/
 .flex{
     display: flex;
@@ -172,11 +174,12 @@ a{
 .top-lay{
     width: 100%;
     height: 100px;  
-    border: 1px solid black;
+    
 }
 .form{
     padding-top: 30px;
     gap: 10px;
+    color: invert;
 }
 /*COLONNE 3*/
 .container-col{   
@@ -192,7 +195,7 @@ a{
 .col{
     width: calc(100% / 3);
     
-    height: 600px;
+    
 }
 
 .dir-col{
@@ -245,7 +248,11 @@ a{
 .bold{
     font-weight: 700;
 }
-
+.hrstyle{
+    margin-top: 20px;
+    border: 1px solid lightgray;
+    width: 30px;
+}
 /*COLONNA BIG AND SMALL*/
 
 .lrgandsmall{
