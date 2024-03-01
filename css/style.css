@@ -61,6 +61,9 @@ a{
 .pd-top-30{
     padding-top: 30px;
 }
+.pd-r-15{
+    padding-right: 15px;
+}
 /*DISPLAY*/
 .flex{
     display: flex;
@@ -94,6 +97,12 @@ a{
 
 .space-ev{
     justify-content: space-evenly;
+}
+.space-bet{
+    justify-content: space-between;
+}
+.gap-col{
+    gap: 8px;
 }
 
 /*HEADER*/
@@ -211,8 +220,7 @@ a{
 
 .base-lay{
     width: 100%;
-    padding-top: 50px;
-    
+    margin-top: 50px; 
 }
 
 .card > ul{
@@ -231,11 +239,6 @@ a{
 .ndstailist > li{
     padding-top: 10px;
     padding-bottom: 15px;
-}
-
-.user::before{
-    font-family: "Font Awesome Kit";
-    content: "\f007";
 }
 /*Scelta del piano*/
 .choice{
@@ -264,8 +267,24 @@ a{
     align-items: flex-start;
     gap: 5px;
 }
-/*COLONNA BIG AND SMALL*/
+/*Styling Base lay*/
+.base-lay{
+    border: 1px solid lightgray;
+}
+.base-lay > .texta{
+    border: none;
+    border-bottom: 1px solid lightgray;
+}
 
+.lft-lay{
+    width: 70%;
+}
+
+.under-p{
+    font-size: 0.7rem;
+}
+
+/*COLONNA BIG AND SMALL*/
 .lrgandsmall{
     width: 100%;
     margin-top: 20px;
