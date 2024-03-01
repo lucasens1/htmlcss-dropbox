@@ -13,6 +13,15 @@ img{
     max-width: 100%;
     object-fit: cover;
 }
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
 /*PADDING*/
 .pd-top-50{
     padding-top: 50px;
@@ -25,9 +34,16 @@ img{
 .pd-btm-20{
     padding-bottom: 20px;
 }
+
+.pd-15-xy{
+    padding: 15px;
+}
 /*DIPSLAY*/
 .flex{
     display: flex;
+}
+.inline-b{
+    display: inline-block;
 }
 /*POSITION*/
 .fixed{
@@ -39,37 +55,65 @@ img{
 .wrap{
     flex-wrap: wrap;
 }
+.align-y{
+    align-items: center;
+}
+
+.space-ev{
+    justify-content: space-evenly;
+}
 /*HEADER*/
 .head{
     width: 100%;
-    height: 60px;
-    background-color: blue;
+    min-height: 60px;
+    background-color: white;
     justify-content: space-between;
+    
     z-index: 999;
 }
 
 .left-head{
-    background-color: blueviolet;
-    height: 60px;
-    width: 30%;
+    min-height: inherit;
+    width: 40%;
 }
 
 .right-head{
-    background-color: blueviolet;
-    height: 60px;
-    width: 30%;
+    min-height: inherit;
+    width: 40%;
+}
+
+.serv-top{
+    gap: 5px;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+
+.serv-top > li{
+    margin-right: 10px;
+}
+
+.start{
+    display: inline-block;
+    background-color: slateblue;
+    padding: 10px 15px;
+    color: white;
 }
 
 /*BIG CONTAINER*/
 .hero{
     width: 100%;
-    background-color: black;
+    background-color: #b4d0e7;
 }
 .container-large{
     width: 80%;
     margin: 0 auto;
     height: 400px;
     background-color: aqua;
+}
+
+.mega-title{
+    font-size: 3.2rem;
 }
 
 /*MAIN SECTION */
