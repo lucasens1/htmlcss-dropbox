@@ -70,23 +70,18 @@ a{
 .pd-top-50{
     padding-top: 50px;
 }
-
 .pd-top-15{
     padding-top: 15px;
 }
-
 .pd-top-120{
     padding-top: 120px;
 }
-
 .pd-btm-20{
     padding-bottom: 20px;
 }
-
 .pd-btm-40{
     padding-bottom: 40px;
 }
-
 .pd-15-xy{
     padding: 15px;
 }
@@ -95,6 +90,9 @@ a{
 }
 .pd-top-30{
     padding-top: 30px;
+}
+.pd-top-80{
+    padding-top: 80px;
 }
 .pd-r-15{
     padding-right: 15px;
@@ -105,6 +103,7 @@ a{
 .pd-l-30{
     padding-left: 30px;
 }
+
 /*DISPLAY*/
 .flex{
     display: flex;
@@ -115,6 +114,10 @@ a{
 .blck{
     display: block;
 }
+.none{
+    display: none;
+}
+
 /*POSITION*/
 .fixed{
     position: fixed;
@@ -145,9 +148,6 @@ a{
 .gap-col{
     gap: 8px;
 }
-
-
-
 /*HEADER*/
 .head{
     width: 100%;
@@ -460,17 +460,28 @@ a{
 }
 
 /*FAQ*/
-
-.faq{
-    height: 250px;
-    padding-bottom: 20px;
-}
-
 .faq-cont{
     height: 100%;
     width: 100%;
-    background-color: black;
+    height: 400px;
     
+    background-color: violet;    
+}
+.brd-top{
+    border-top: 1px solid black;
+}
+
+.btn-style-none{
+    border: none;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+.cursor{
+    cursor: pointer;
+}
+.overflowed{
+    overflow: hidden;
 }
 /*FOOTER*/
 .footend{
