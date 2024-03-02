@@ -437,6 +437,11 @@ a{
 .logofix > img{
     width: 50%;
 }
+
+.overflowed{
+    overflow: hidden;
+}
+
 /*Dropbox Business*/
 .drop-bus-title{
     color: #61082b ;
