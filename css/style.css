@@ -157,7 +157,6 @@ a{
     background-color: white;
     justify-content: space-between;
     
-    
     z-index: 999;
 }
 
@@ -477,6 +476,13 @@ a{
     background-color: white;
     cursor: pointer;
 }
+
+/*Fixo la posizione del button*/
+.labelpos.abs{
+    top: 0;
+    right: 0;
+}
+
 /*Modifiche per animazione base da checked*/
 .cursor{
     cursor: pointer;
