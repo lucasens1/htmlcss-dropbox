@@ -7,9 +7,11 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
+    width: 100%;
 }
 
 .wrapper{
+    min-width: 940px;
     margin: 0 auto;
 }
 
@@ -239,14 +241,14 @@ a{
 }
 /*Fixare stile di Radio*/
 .form{
-    padding-top: 30px;
+    padding-top: 20px;
     gap: 10px;
 }
 /*COLONNE 3*/
 .container-col{   
     margin: 10px 0;
     gap: 5px;
-    
+    position: relative;
 }
 .texta{
     border: 1px solid lightgray;
@@ -291,6 +293,7 @@ a{
     color: white;
     font-size: 0.7rem;
 }
+
 
 /*For anchorage tag in Div*/
 .styleblue{
@@ -437,9 +440,12 @@ a{
 .logofix > img{
     width: 50%;
 }
-
+/*Caso Overflow*/
 .overflowed{
-    overflow: hidden;
+    overflow:scroll;
+}
+.maxh{
+    max-height: 100%;
 }
 
 /*Dropbox Business*/
