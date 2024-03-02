@@ -103,7 +103,9 @@ a{
 .pd-l-30{
     padding-left: 30px;
 }
-
+.pd-xy-30{
+    padding: 30px;
+}
 /*DISPLAY*/
 .flex{
     display: flex;
@@ -461,12 +463,9 @@ a{
 
 /*FAQ*/
 .faq-cont{
-    height: 100%;
-    width: 100%;
-    height: 400px;
-    
-    background-color: violet;    
+    width: 100%;   
 }
+
 .brd-top{
     border-top: 1px solid black;
 }
@@ -477,15 +476,44 @@ a{
     background-color: white;
     cursor: pointer;
 }
+/*Modifiche per animazione base da checked*/
 .cursor{
     cursor: pointer;
 }
-.overflowed{
-    overflow: hidden;
+.content-in-btn{
+    display: none;
 }
+input:checked ~ ul.content-in-btn {
+    display: block;
+}
+.inline{
+    display: inline;
+}
+
+/*Animazione Smooth per ul */
+#smooth{
+    animation-duration: 1s;
+    animation-name: good;
+}
+
+
+@keyframes good{
+    from{
+        padding-top: 0; 
+    }
+
+    to{
+       padding-top: 15px; 
+    }
+}
+
 /*FOOTER*/
 .footend{
     width: 100%;
     height: 300px;
     background-color: black;
+}
+
+.hfix{
+    height: 100%;
 }
