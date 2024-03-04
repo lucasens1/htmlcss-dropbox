@@ -9,28 +9,51 @@ body{
     font-family: 'Open Sans', sans-serif;
     width: 100%;
 }
-
-.wrapper{
-    min-width: 940px;
-    margin: 0 auto;
-}
-
 img{
     max-width: 100%;
     object-fit: cover;
 }
-
 ul{
     list-style: none;
 }
-
 a{
     text-decoration: none;
     color: inherit;
 }
+.wrapper{
+    min-width: 940px;
+    margin: 0 auto;
+}
+.herowrap{
+    width: 100%;
+    background-image: linear-gradient(cadetblue,#b4d0e7 );
+}
+.herowrap > * {
+    max-width: 1366px;
+    margin: 0 auto;
+}
+.common-wrap{
+    width: 100%;
+    background-color: white;
+}
+.common-wrap > *{
+    max-width: 1366px;
+    margin: 0 auto;
+}
+/*Effetti*/
+.borderstyle:hover{
+    border-bottom:2px solid #0061ff;
+}
+.grad-blue:hover{
+    color: #0061ff;
+    transition: color 2s;
+}
 
 .grey{
     color: lightslategray;
+}
+.black{
+    background-color: black;
 }
 /*Colori dei loghi*/
 .lightgreen{
@@ -191,7 +214,6 @@ a{
 /*BIG CONTAINER*/
 .hero{
     width: 100%;
-    background-color: #b4d0e7;
 }
 .container-large{
     width: 70%;
